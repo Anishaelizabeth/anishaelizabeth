@@ -1,0 +1,504 @@
+<html lang="en">
+
+<head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+	<link rel="stylesheet" type="text/css" href="asset/style/style.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Anisha">
+
+
+	<title>Document</title>
+
+	<script type="module">
+		import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+		const el = document.createElement('pwa-update');
+		document.body.appendChild(el);
+	</script>
+
+</head>
+
+<body>
+
+
+	<!-- Menu
+    ================================================== -->
+	<nav id="art-menu" class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<!-- for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="#navbar-collasped">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!-- Navigation Toggling -->
+			<div class="collapse navbar-collapse" id="navbar-collasped">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home" class="scroll-nav">Home</a></li>
+					<li><a href="#about" class="scroll-nav">About</a></li>
+					<li><a href="#portfolio" class="scroll-nav">Portfolio</a></li>
+					<li><a href="#contact" class="scroll-nav">Contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<div id="home" class="text-center">
+		<div class="layer">
+			<div class="content">
+				<h1>Hi I'm <strong><span>Anisha </span></strong></h1>
+
+				<p class=""><span class="lead typed-text"></span><span class="cursor">&nbsp;</span></p>
+				<a href="#about" class="fa fa-angle-down scroll-nav"></a>
+			</div>
+		</div>
+
+	</div>
+	<div id="about">
+		<div class="container">
+			<div class="section-title center text-center">
+				<h2><strong>ABOUT Me</strong></h2>
+				<div class="line">
+				</div>
+			</div>
+			<div class="gap"></div>
+			<div class="row">
+				<div class="col-md-6">
+					<p>Hi there, I’m <strong>Anisha Antony</strong>.</p>
+					<p>Iam a Master in Computer Application with excellent typing and programming skills. I have been
+						working as a Front end developer in CRCS Pvt Ltd(Kerala, India) since the day i graduated from
+						my college .</p>
+					<p>I love my work and enjoy each new project as I get it. Feel free to have a look at my portfolio
+						and don’t hesitate to contact me if you think I can be of service to you.</p>
+					<p><strong>Thanks</strong> for stopping by!</p>
+				</div>
+				<div class="col-md-6">
+					<div class="progress progress-striped active">
+						<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+							aria-valuemin="0" aria-valuemax="100" data-width="80%" style="width:80%;">
+							80% - HTML
+						</div>
+					</div>
+					<div class="progress progress-striped active">
+						<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"
+							aria-valuemin="0" aria-valuemax="100" data-width="70%" style="width:70%;">
+							70% - Css
+						</div>
+					</div>
+					<div class="progress progress-striped active">
+						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+							aria-valuemin="0" aria-valuemax="100" style="width:60%;">
+							60% - Javascript
+						</div>
+					</div>
+					<div class="progress progress-striped active">
+						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"
+							aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+							80% - WordPress
+						</div>
+					</div>
+					<div class="progress progress-striped active">
+						<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"
+							aria-valuemin="0" aria-valuemax="100" data-width="70%" style="width:70%;">
+							70% - Tailwind
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="row">
+		<div class="col-xs-12 text-center">
+			<blockquote>
+				"It's not at all important to get it right the first time. It's vitally important to get it right the
+				last time"
+			</blockquote>
+			<div class="joinjour text-center">
+				<a href="#contact" class="btn btn-block scroll-nav">Book Me Now</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Education
+    ================================================== -->
+<!-- <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-6/12">
+        <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+          <p  class="tracking-widest text-lg title-font font-bold text-indigo-500 mb-1">Education</p>
+          <p class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">2016-2019</p>
+          <p class="leading-relaxed mb-3">Masters in ComputerApplication</p>
+          <p class="leading-relaxed mb-3">School of Technology and Applied Science</p>
+          <a class="text-indigo-500 inline-flex items-center mb-6">Edappally</a>
+          <p class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">2013-2016</p>
+          <p class="leading-relaxed mb-3">Bsc Computer Application 
+           <p class="leading-relaxed mb-3">School of Technology and Applied Science</p>
+          <a class="text-indigo-500 inline-flex items-center">Edappally</a>
+        </div>
+      </div>
+      <div class="p-4 lg:w-6/12">
+        <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+          <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+          <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Ennui Snackwave Thundercats</h1>
+          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+          <a class="text-indigo-500 inline-flex items-center">Learn More
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+     -->
+	
+	
+	<!-- Works
+    ================================================== -->
+	<div id="portfolio" class="text-center">
+		<div class="container">
+
+			<div class="section-title center">
+				<h2>My WORKS</h2>
+				<div class="line">
+
+				</div>
+			</div>
+			<div class="gap"></div>
+			<section id="works" class="container">
+
+
+				<ul class="portfolio-items col-2">
+					<li class="portfolio-item apps">
+						<div class="item-inner">
+							<img src="https://cdn2.hubspot.net/hubfs/145335/responsive-vs-adaptive-design-compressor.jpg"
+								alt="Portfolio" class="img-responsive portfolio-img">
+							<h5>Lorem ipsum dolor sit amet</h5>
+							<div class="layer">
+								<a class="preview view"
+									href="https://cdn2.hubspot.net/hubfs/145335/responsive-vs-adaptive-design-compressor.jpg"><i
+										class="fa fa-eye"></i></a>
+							</div>
+						</div>
+					</li>
+					<!--/.portfolio-item-->
+					<li class="portfolio-item logo apps">
+						<div class="item-inner">
+							<img src="https://cdn2.hubspot.net/hubfs/145335/responsive-vs-adaptive-design-compressor.jpg"
+								alt="Portfolio" class="img-responsive portfolio-img">
+							<h5>Lorem ipsum dolor sit amet</h5>
+							<div class="layer">
+								<a class="preview view"
+									href="https://cdn2.hubspot.net/hubfs/145335/responsive-vs-adaptive-design-compressor.jpg"><i
+										class="fa fa-eye"></i></a>
+							</div>
+						</div>
+					</li>
+					<!--/.portfolio-item-->
+					<li class="portfolio-item logo web">
+						<div class="item-inner">
+							<img src="https://cdn2.hubspot.net/hubfs/145335/responsive-vs-adaptive-design-compressor.jpg"
+								alt="Portfolio" class="img-responsive portfolio-img">
+							<h5>Lorem ipsum dolor sit amet</h5>
+							<div class="layer">
+								<a class="preview view"
+									href="https://cdn2.hubspot.net/hubfs/145335/responsive-vs-adaptive-design-compressor.jpg"><i
+										class="fa fa-eye"></i></a>
+							</div>
+						</div>
+					</li>
+					<!--/.portfolio-item-->
+					<li class="portfolio-item logo web apps">
+						<div class="item-inner">
+							<img src="https://cdn2.hubspot.net/hubfs/145335/responsive-vs-adaptive-design-compressor.jpg"
+								alt="Portfolio" class="img-responsive portfolio-img">
+							<h5>Lorem ipsum dolor sit amet</h5>
+							<div class="layer">
+								<a class="preview view"
+									href="https://cdn2.hubspot.net/hubfs/145335/responsive-vs-adaptive-design-compressor.jpg"><i
+										class="fa fa-eye"></i></a>
+							</div>
+						</div>
+					</li>
+					<!--/.portfolio-item-->
+					<li class="portfolio-item apps web">
+						<div class="item-inner">
+							<img src="https://cdn2.hubspot.net/hubfs/145335/responsive-vs-adaptive-design-compressor.jpg"
+								alt="Portfolio" class="img-responsive portfolio-img">
+							<h5>Lorem ipsum dolor sit amet</h5>
+							<div class="layer">
+								<a class="preview view"
+									href="https://dummyimage.com/600x400/1a1b1c/e4e5f0.png&text=Work"><i
+										class="fa fa-eye"></i></a>
+							</div>
+						</div>
+					</li>
+					<!--/.portfolio-item-->
+					<li class="portfolio-item apps">
+						<div class="item-inner">
+							<img src="https://cdn2.hubspot.net/hubfs/145335/responsive-vs-adaptive-design-compressor.jpg"
+								alt="Portfolio" class="img-responsive portfolio-img">
+							<h5>Lorem ipsum dolor sit amet</h5>
+							<div class="layer">
+								<a class="preview view"
+									href="https://cdn2.hubspot.net/hubfs/145335/responsive-vs-adaptive-design-compressor.jpg"><i
+										class="fa fa-eye"></i></a>
+							</div>
+						</div>
+					</li>
+					<!--/.portfolio-item-->
+				</ul>
+			</section>
+			<!--/#portfolio-->
+		</div>
+	</div>
+	<div id="contact" class="text-center">
+		<div class="container">
+			<div class="section-title center">
+				<h2>Get in Touch</h2>
+				<div class="line">
+				</div>
+			</div>
+			<div class="gap"></div>
+			<div class="address">Want to get in touch with me? just feel free to drop me a line anytime. </div>
+			<div id="contact-form">
+				<div id="message"></div>
+				<form method="post" action="php/contact.php" name="contactform" id="contactform">
+					<input name="name" type="text" id="name" class="inputForm2 text-white" placeholder="Name">
+					<input name="email" type="text" id="email" placeholder="Email">
+					<textarea name="comments" id="comments" placeholder="Message"></textarea>
+					<input type="submit" class="send_message transition" id="submit" value="Send Message" />
+				</form>
+			</div>
+		</div>
+	</div>
+<style>
+		.active{
+			color:#DE5E60 !important;
+		}
+		.inactive{
+			color:#fff;
+		}
+	</style>
+	
+	<footer id="mobile-footer">
+		<div id="mobile-menu">
+			<div id="mobile-footer-container">
+				<div class="mobile-link">
+					<a href="#home" class="text-center active"><i class="material-icons">home</i></a>
+				</div>
+				<div class="mobile-link">
+					<a href="#about" class="text-center"><i class="material-icons">person_outline</i></a>
+				</div>
+				<div class="mobile-link">
+					<a href="#portfolio" class="text-center"><i class="material-icons">description</i></a>
+				</div>
+				<div class="mobile-link">
+					<a href="#contact" class="text-center"><i class="material-icons">call</i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!-- Footer
+    ================================================== -->
+	<footer id="footer">
+		<div class="footer-top">
+			<div class="container text-center">
+				<div class="footer-logo">
+					<a href="https://codepen.io/jvjijith/pen/woMywq">Anisha Antony</a>
+				</div>
+				<div class="social-icons">
+					<ul>
+						<li><a class="envelope"><i class="fa fa-codepen icon-sm"></i></a></li>
+						<li><a class="twitter"><i class="fa fa-twitter icon-sm"></i></a></li>
+						<li><a class="dribbble"><i class="fa fa-wordpress icon-sm"></i></a></li>
+						<li><a class="facebook"><i class="fa fa-facebook icon-sm"></i></a></li>
+						<li><a class="linkedin"><i class="fa fa-linkedin icon-sm"></i></a></li>
+						<li><a class="tumblr"><i class="fa fa-github icon-sm"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<p>&copy;Anisha Antony</p>
+					</div>
+					<div class="col-sm-6">
+						<p class="pull-right">Developed by <a href="https://www.freecodecamp.com/jvjijith">Anisha
+								Antony</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="p-5 text-center position-fixed a2hs_modal">
+		<div class="flexbox_container justify_center flex-column">
+			<img class="w-50 p-3" src="/images/windows11/SmallTile.scale-125.png">
+		</div>
+		<div style="color:#6e6b6b;" class=" lead">
+			Add to homescreen on your mobile
+		</div>
+		<div class="">
+			<button class="mb-3 btn_install btn_normal acceptBtn"> Install</button>
+		</div>
+		<div class="close_btn">
+			<a class="text_grey" onclick="hideModal()">Not Now</a>
+		<div>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/4.0.1/placeholders.jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.0.0/jquery.smooth-scroll.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.3/jquery.sticky.js"></script>
+	<script src=" https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script>
+	<script src="asset/js/custom.js"></script>
+	
+	<script>
+		let menuItem = $(".mobile-link a");
+    	let wrapper = $("#mobile-menu");
+    
+    	menuItem.click(function() {
+    	let activeClass = 'active';
+    	menuItem.removeClass(activeClass);
+    	$(this).addClass(activeClass);
+    	});
+    	
+    	 const mqStandAlone = '(display-mode: standalone)';
+            if (navigator.standalone || window.matchMedia(mqStandAlone).matches) {
+                $('#mobile-menu').show();
+            }else{
+                $('#mobile-menu').hide();
+            }
+	</script>
+	
+<script>
+    	let deferredPrompt;
+	const acceptBtn = document.querySelector('.acceptBtn');
+	var displayMode = getPWADisplayMode();
+	var checkUserInput = 0;
+	console.log("Display Mode : " + displayMode);
+	window.addEventListener('beforeinstallprompt', (e) => {
+		console.log("MOBILE");
+		e.preventDefault();
+		if (checkUserInput == 0)
+			$('.a2hs_modal').addClass('slideUp');
+		deferredPrompt = e;
+		acceptBtn.addEventListener('click', (e) => {
+			$('.a2hs_modal').removeClass('slideUp');
+			// Show the prompt
+			deferredPrompt.prompt();
+			// Wait for the user to respond to the prompt
+			deferredPrompt.userChoice.then((choiceResult) => {
+				if (choiceResult.outcome === 'accepted') {
+					console.log('User accepted the A2HS prompt');
+				} else {
+					console.log('User dismissed the A2HS prompt');
+				}
+				deferredPrompt = null;
+				checkUserInput = 1;
+			});
+			hideModal();
+		});
+	});
+	function hideModal() {
+		$('.a2hs_modal').removeClass('slideUp');
+	}
+	function getPWADisplayMode() {
+		const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+		if (document.referrer.startsWith('android-app://')) {
+			return 'twa';
+		} else if (navigator.standalone || isStandalone) {
+			return 'standalone';
+		}
+		return 'browser';
+	}
+
+	function main() {
+
+
+		(function () {
+			'use strict';
+			/* ==============================================
+			   Page Scrolling
+			   =============================================== */
+
+			$('a.scroll-nav').click(function () {
+				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top - 40
+						}, 900);
+						return false;
+					}
+				}
+			});
+
+			/*====================================
+			 Show Menu on Book
+			 ======================================*/
+			$(window).bind('scroll', function () {
+				var navHeight = $(window).height() - 100;
+				if ($(window).scrollTop() > navHeight) {
+					$('.navbar-default').addClass('on');
+				} else {
+					$('.navbar-default').removeClass('on');
+				}
+			});
+			/* ==============================================
+			 Scroll Spy
+			 =============================================== */
+			$('body').scrollspy({
+				target: '.navbar-default',
+				offset: 80
+			})
+
+		}());
+	}
+	main();
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "in.co.poweroins.anisha.twa",
+    "sha256_cert_fingerprints": [
+      "B1:E7:8F:E2:10:68:A2:C5:BF:29:1B:60:20:CD:38:6E:06:FB:C6:6F:6D:34:83:30:6C:00:83:FE:79:7A:75:F7"
+    ]
+  }
+}]
